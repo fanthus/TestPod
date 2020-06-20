@@ -15,9 +15,10 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestPod"
+  spec.name         = "TestPodFanthus"
   spec.version      = "0.0.1"
   spec.summary      = "This is fanthus's test pod"
+  spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,8 +41,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT"}
-
+  # spec.license      = { :type => "MIT" :file => "FILE_LICENSE"}
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/fanthus/TestPod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fanthus/TestPodFanthus.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
