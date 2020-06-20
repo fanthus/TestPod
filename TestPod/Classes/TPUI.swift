@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TPUI {
+public class TPUI {
     
     public static var currentVersion = "0.0.1"
     
